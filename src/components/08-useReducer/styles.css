@@ -1,5 +1,7 @@
 body{
     padding: 50px;
+
+    background-image: radial-gradient(circle at 50% 50%, #00ffff 0, #1ef5ff 25%, #38dcff 50%, #45c3e5 75%, #4cadcd 100%);
 }
 
 p{
@@ -16,3 +18,9 @@ p{
 .complete{
     text-decoration: line-through;
 }
+
+.logo{
+  
+    border: 1px solid grey;
+    border-radius: 6px;
+  }

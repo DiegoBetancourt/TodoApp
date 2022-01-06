@@ -67,7 +67,10 @@ export const TodoApp = () => {
 
   return (
     <div>
-      <h1>TodoApp ({todos.length}) </h1>
+      <div align="center">
+            <img   className='logo' src="LogoDBIV.png" alt="LogoDiego"></img>
+            </div>
+      <h1>Tareas ({todos.length}) </h1>
       <hr />
 
       <div className="row">
@@ -80,7 +83,7 @@ export const TodoApp = () => {
         </div>
 
         <div className="col-5">
-          <h4>Agregar TODO</h4>
+          <h4>Agregar Tarea</h4>
           <hr />
 
           <form onSubmit={handleSumit}>
